@@ -1,0 +1,45 @@
+body{
+    
+    display: flex;
+    margin: 0%;
+    border-radius: 100%;
+    background-color:beige;
+    text-align:justify;
+    font-family: Open Sans, sans-serif;
+}
+
+.site{
+    padding: 10%;
+    justify-content: first baseline;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.site-conteudo{
+    margin: 0% 2% 8%;
+    justify-items: right;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: justify;
+}
+
+h3{
+    text-align: justify;
+    color: blue;
+}
+
+h4{
+    text-align: justify;
+    
+}
+
+
+
