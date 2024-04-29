@@ -9,18 +9,36 @@ body{
 }
 
 .site{
-    padding: 10%;
-    justify-content: first baseline;
-    box-sizing: border-box;
-    border-radius: 10px;
-    text-align: center;
-    
+    padding: 100%;
+    display: contents;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+        
 }
 
-.site-conteudo{
-    margin: 0% 2% 8%;
-    justify-items: right;
+.lista_site{
+    background: pink;
+    padding: 5% 5%;
+    box-sizing: content-box;
+    font-size: 100%;
+}
+
+.site_conteudo{
+    padding: 5%;
+    justify-content: space-around;
+}
+
+.lista{
+    list-style-type: none;
+    box-sizing: content-box;
+    font-size: 100%;
     
+}
+.lista_site_url{
+    box-sizing: content-box;
+    text-align: justify;
+    font-display: auto;
 }
 
 h1{
@@ -28,7 +46,7 @@ h1{
 }
 
 h2{
-    text-align: justify;
+    text-align: center;
 }
 
 h3{
@@ -37,8 +55,8 @@ h3{
 }
 
 h4{
-    text-align: justify;
-    
+    text-align: center;
+    font-size: 150%; 
 }
 
 
