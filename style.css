@@ -24,8 +24,18 @@ body{
     font-size: 100%;
 }
 
+.menu a{
+    display: inline-block;
+    justify-content: flex-start;
+    background-color: pink;
+    background-color: white;
+    box-sizing: content-box;
+    
+}
+
 .site_conteudo{
-    padding: 5%;
+    padding: 2%;
+    margin-top: 5%;
     justify-content: space-around;
 }
 
@@ -50,12 +60,12 @@ h2{
 }
 
 h3{
-    text-align: justify;
+    text-align: center;
     color: blue;
 }
 
 h4{
-    text-align: center;
+    text-align: justify;
     font-size: 150%; 
 }
 
